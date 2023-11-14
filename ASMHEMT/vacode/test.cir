@@ -1,0 +1,10 @@
+.include D:\tix\testASMHEMT\VA-Models-main\code\osdilibs\asmhemt.lib
+* Определение элементов схемы с использованием модели из библиотеки
+X1 vin vout 0 0 asmhemt
+V1 vin 0 DC 1V
+
+* Параметры симуляции
+.TRAN 1us 10ms
+
+* Запуск симуляции
+.END
